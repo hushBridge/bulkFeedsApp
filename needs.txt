@@ -1,0 +1,7 @@
+ExpressServer
+PassportJs
+Heroku
+MongoDB
+stripe
+React
+thirdPartyEmailProvider
