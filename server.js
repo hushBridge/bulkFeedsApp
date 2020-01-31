@@ -3,7 +3,7 @@ const express = require('express');
 
 //
 const app = express();
-const port = process.env.PORT || 5000;
+//console.log(process.env.USERNAME);
 
 
 //route Handlers
@@ -14,4 +14,5 @@ app.get('/', (req, res) => {
 
 
 //
-app.listen(port);
+const PORT = process.env.PORT || 5000;
+app.listen(PORT);
